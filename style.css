@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+.main-section{
+    height: 100vh;
+    display: grid;
+    grid-template: 1fr / 1fr 4fr;
+}
+
+.left-section{
+    background-color: lightseagreen;
+    display: grid;
+    grid-template-rows: 1fr 4fr 6fr;
+}
+
+.top-left-section{
+    
+}
+.middle-left-section{
+    background-color: blueviolet;
+}
+.bottom-left-section{
+    background-color: brown;
+}
+
+.right-section{
+    background-color: white;
+}
