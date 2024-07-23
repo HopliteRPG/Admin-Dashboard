@@ -25,13 +25,13 @@ svg{
 
 }
 
-.home-svg{
+.dashboard-svg{
     height: 40px;
     width: 40px;
     fill: white;
 }
 
-.home-text{
+.dashboard-text{
     color: white;
     font-size: 1.3rem;
 }
@@ -39,6 +39,13 @@ svg{
 .middle-left-section{
     background-color: blueviolet;
 }
+
+.left-section-item{
+    display: flex;
+    align-items: center;
+    
+}
+
 .bottom-left-section{
     background-color: brown;
 }
