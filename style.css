@@ -13,10 +13,13 @@ svg{
     grid-template: 1fr / 1fr 4fr;
 }
 
+/* Left Section */
+
 .left-section{
     background-color: lightseagreen;
     display: grid;
     grid-template-rows: 1fr 4fr 6fr;
+
 }
 
 .top-left-section{
@@ -43,12 +46,27 @@ svg{
 .left-section-item{
     display: flex;
     align-items: center;
-    
+    height: 35px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+
+.left-section-item svg{
+    padding-left: 15px;
+    padding-right: 15px;
+    fill: white;
+}
+
+.left-section-item p{
+color: white;
 }
 
 .bottom-left-section{
     background-color: brown;
 }
+
+/* Right Section */
 
 .right-section{
     background-color: white;
