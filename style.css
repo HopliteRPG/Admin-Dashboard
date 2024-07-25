@@ -10,7 +10,7 @@ svg{
 .main-section{
     height: 100vh;
     display: grid;
-    grid-template: 1fr / 1fr 4fr;
+    grid-template: 1fr / minmax(180px, 1fr) 4fr;
 }
 
 /* Left Section */
@@ -68,4 +68,33 @@ color: white;
 
 .right-section{
     background-color: white;
+    display: grid;
+    grid-template: 1fr 6fr / 1fr 
+}
+
+.header-section{
+    background-color: aqua;
+    display: grid;
+    grid-template: 1fr 2fr / 1fr 
+}
+
+.top-header-section{
+    background-color: lightsalmon;
+}
+
+.spaghetti-pfp{
+    width: 30px;
+    height: 30px;
+}
+
+.header-name{
+    margin: 0;
+}
+
+.bottom-header-section{
+    background-color: lightgreen;
+}
+
+.bottom-right-section{
+    background-color: blanchedalmond;
 }
