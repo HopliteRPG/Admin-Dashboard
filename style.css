@@ -80,6 +80,27 @@ color: white;
 
 .top-header-section{
     background-color: lightsalmon;
+    display: grid;
+    grid-template: 1fr / minmax(25px, 70px) minmax(300px, 3fr) 1fr minmax(25px,75px) 1fr;
+    align-items: center;
+}
+
+.input-bar{
+    padding-left: 10px;
+}
+
+.search-svg{
+    padding-right: 15px;
+}
+
+.search-svg-grid,.notification-bell-svg-grid{
+    display: grid;
+    justify-content: end;
+}
+
+.spaghetti-pfp-div{
+    display: grid;
+    justify-content: center;
 }
 
 .spaghetti-pfp{
