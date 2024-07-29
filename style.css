@@ -81,12 +81,25 @@ color: white;
 .top-header-section{
     background-color: lightsalmon;
     display: grid;
-    grid-template: 1fr / minmax(25px, 70px) minmax(300px, 3fr) 1fr minmax(25px,75px) 1fr;
+    grid-template: 1fr / 2fr 1fr;
+    align-items: center;
+}
+
+.top-left-header-section{
+    display: grid;
+    grid-template: 1fr / 1fr 9fr;
+}
+
+.top-right-header-section{
+    display: grid;
+    grid-template: 1fr / 2fr 1fr 2fr;
     align-items: center;
 }
 
 .input-bar{
     padding-left: 10px;
+    border-radius: 100px;
+    border: none;
 }
 
 .search-svg{
@@ -106,6 +119,7 @@ color: white;
 .spaghetti-pfp{
     width: 30px;
     height: 30px;
+    border-radius: 100px;
 }
 
 .header-name{
