@@ -72,11 +72,14 @@ color: white;
     grid-template: 1fr 6fr / 1fr 
 }
 
+/* Header */
 .header-section{
     background-color: aqua;
     display: grid;
     grid-template: 1fr 2fr / 1fr 
 }
+
+/* Top Header */
 
 .top-header-section{
     background-color: lightsalmon;
@@ -126,6 +129,8 @@ color: white;
     margin: 0;
 }
 
+/* Bottom Header */
+
 .bottom-header-section{
     background-color: lightgreen;
     display: grid;
@@ -133,6 +138,7 @@ color: white;
 
 }
 
+/* Left Bottom Header */
 .left-bottom-header-section{
     display: grid;
     grid-template: 1fr / 1fr 5fr;
@@ -180,6 +186,8 @@ color: white;
     font-weight: bold;
 }
 
+/* Right Bottom Header */
+
 .bottom-right-section{
     background-color: blanchedalmond;
 }
@@ -202,3 +210,4 @@ color: white;
 .right-bottom-header-section button:hover{
     cursor: pointer;
 }
+
