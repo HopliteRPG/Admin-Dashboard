@@ -133,6 +133,72 @@ color: white;
 
 }
 
+.left-bottom-header-section{
+    display: grid;
+    grid-template: 1fr / 1fr 5fr;
+}
+
+.left-bottom-header-section-pfp-div{
+    display: grid;
+    align-items: center;
+    justify-content: end;
+    padding-right: 15px;
+
+}
+
+.left-bottom-header-section-pfp-div .spaghetti-pfp{
+    width: 65px;
+    height: 65px;
+    border-radius: 100px;
+}
+
+.left-bottom-header-section-text-div{
+    display: grid;
+    grid-template: 1fr 2fr / 1fr;
+}
+
+.left-bottom-header-section-text-div p{
+    margin: 0;
+}
+
+.top-left-bottom-header-section-text-div{
+    display: grid;
+    align-items: end;
+}
+
+.top-left-bottom-header-section-text-div p{
+    font-size: 14px;
+}
+
+.bottom-left-bottom-header-section-text-div{
+
+}
+
+.bottom-left-bottom-header-section-text-div p{
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .bottom-right-section{
     background-color: blanchedalmond;
+}
+
+.right-bottom-header-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-bottom-header-section button{
+    width: 100px;
+    height: 40%;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(43, 127, 190);
+    color: white;
+}
+
+.right-bottom-header-section button:hover{
+    cursor: pointer;
 }
