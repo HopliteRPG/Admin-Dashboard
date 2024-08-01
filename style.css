@@ -7,7 +7,7 @@ svg{
     width: 25px;
 }
 
-.main-section{
+.base-div{
     height: 100vh;
     display: grid;
     grid-template: 1fr / minmax(180px, 1fr) 4fr;
@@ -188,10 +188,6 @@ color: white;
 
 /* Right Bottom Header */
 
-.bottom-right-section{
-    background-color: blanchedalmond;
-}
-
 .right-bottom-header-section{
     display: flex;
     justify-content: space-evenly;
@@ -211,3 +207,19 @@ color: white;
     cursor: pointer;
 }
 
+
+/* Main Content */
+
+.main-content{
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template: 1fr / 4fr 1fr;
+}
+
+.left-main-content{
+
+}
+
+.right-main-content{
+
+}
