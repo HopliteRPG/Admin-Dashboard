@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
 body{
     margin: 0;
 }
@@ -216,8 +222,59 @@ color: white;
     grid-template: 1fr / 4fr 1fr;
 }
 
+.left-main-content, .right-main-content{
+    display: grid;
+    grid-template: 1fr 19fr / 1fr;
+}
+
 .left-main-content{
 
+}
+
+.left-main-content p{
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.left-main-content-div-holder{
+    display: grid;
+    padding-left: 15px;
+    grid-template: 170px 170px 170px / minmax(314px,1fr) minmax(314px,1fr);
+    gap: 20px;
+}
+
+.left-main-content-div{
+    display: grid;
+    grid-template: 2fr 4fr 2fr / 1fr;
+    background-color: blue;
+    border-radius: 12px;
+}
+
+.left-main-content-div p{
+    margin: 0;
+}
+
+.left-main-content-title-div{
+    display: flex;
+    align-items: end;
+}
+
+.left-main-content-title-div p{
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 15px;
+
+}
+
+.left-main-content-title-div p, .left-main-content-text{
+    padding-left: 15px;
+}
+
+.left-main-content-svg-div{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 15px;
 }
 
 .right-main-content{
