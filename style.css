@@ -21,7 +21,7 @@ svg{
 /* Left Section */
 
 .left-section{
-    background-color: lightseagreen;
+    background-color: rgb(43, 127, 190);
     display: grid;
     grid-template-rows: 1fr 4fr 6fr;
 }
@@ -43,7 +43,6 @@ svg{
 }
 
 .middle-left-section{
-    background-color: blueviolet;
 }
 
 .left-section-item{
@@ -66,7 +65,6 @@ color: white;
 }
 
 .bottom-left-section{
-    background-color: brown;
     padding-top: 30px;
 }
 
@@ -80,7 +78,7 @@ color: white;
 
 /* Header */
 .header-section{
-    background-color: aqua;
+    background-color: white;
     display: grid;
     grid-template: 1fr 2fr / 1fr 
 }
@@ -88,7 +86,6 @@ color: white;
 /* Top Header */
 
 .top-header-section{
-    background-color: lightsalmon;
     display: grid;
     grid-template: 1fr / 2fr 1fr;
     align-items: center;
@@ -109,6 +106,7 @@ color: white;
     padding-left: 10px;
     border-radius: 100px;
     border: none;
+    background-color: lightgray;
 }
 
 .search-svg{
@@ -138,7 +136,7 @@ color: white;
 /* Bottom Header */
 
 .bottom-header-section{
-    background-color: lightgreen;
+    background-color: white;
     display: grid;
     grid-template: 1fr / 2fr 1fr;
 
@@ -217,7 +215,7 @@ color: white;
 /* Main Content */
 
 .main-content{
-    background-color: blanchedalmond;
+    background-color: lightgray;
     display: grid;
     grid-template: 1fr / 4fr 1fr;
 }
@@ -248,7 +246,7 @@ color: white;
 .left-main-content-div{
     display: grid;
     grid-template: 2fr 4fr 2fr / 1fr;
-    background-color: blue;
+    background-color: white;
     border-radius: 12px;
 }
 
@@ -270,6 +268,10 @@ color: white;
 
 .left-main-content-title-div p, .left-main-content-text{
     padding-left: 15px;
+}
+
+.left-main-content-text{
+    color: gray;
 }
 
 .left-main-content-svg-div{
@@ -314,6 +316,7 @@ color: white;
 
 .announcements-div-item-text{
     font-size: 10px;
+    color: gray;
 }
 
 
