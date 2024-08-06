@@ -14,9 +14,8 @@ svg{
 }
 
 .base-div{
-    height: 100vh;
     display: grid;
-    grid-template: 1fr / minmax(180px, 1fr) 4fr;
+    grid-template: 100vh / minmax(180px, 1fr) 4fr;
 }
 
 /* Left Section */
@@ -224,7 +223,7 @@ color: white;
 
 .left-main-content, .right-main-content{
     display: grid;
-    grid-template: 1fr 19fr / 1fr;
+    grid-template: 5% 95% / 1fr;
 }
 
 /* Left Main Content */
