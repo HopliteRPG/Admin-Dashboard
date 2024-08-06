@@ -67,6 +67,7 @@ color: white;
 
 .bottom-left-section{
     background-color: brown;
+    padding-top: 30px;
 }
 
 /* Right Section */
@@ -74,7 +75,7 @@ color: white;
 .right-section{
     background-color: white;
     display: grid;
-    grid-template: 1fr 6fr / 1fr 
+    grid-template: 1fr 4fr / 1fr 
 }
 
 /* Header */
@@ -223,7 +224,7 @@ color: white;
 
 .left-main-content, .right-main-content{
     display: grid;
-    grid-template: 5% 95% / 1fr;
+    grid-template: 10% 90% / 1fr;
 }
 
 /* Left Main Content */
@@ -232,6 +233,9 @@ color: white;
 .left-main-content p{
     padding-left: 15px;
     font-weight: bold;
+    display: flex;
+    align-items: end;
+
 }
 
 .left-main-content-div-holder{
@@ -279,9 +283,14 @@ color: white;
 /* Right Main Content */
 .right-main-content{
     display: grid;
-    grid-template: 5% 20% 5% 20% / 1fr;
     padding-left: 15px;
     padding-right: 15px;
+    grid-template: 10% 40% 10% 37% / 1fr
+}
+
+.announcements-text-div{
+    display: flex;
+    align-items: end;
 }
 
 .announcements-div-holder{
@@ -308,7 +317,10 @@ color: white;
 }
 
 
-
+.trending-text-div{
+    display: flex;
+    align-items: end;
+}
 
 .trending-div-holder{
     display: grid;
