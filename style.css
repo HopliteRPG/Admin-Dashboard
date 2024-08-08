@@ -15,7 +15,7 @@ svg{
 
 .base-div{
     display: grid;
-    grid-template: 100vh / minmax(180px, 1fr) 4fr;
+    grid-template: 1fr / minmax(180px, 1fr) 4fr;
 }
 
 /* Left Section */
